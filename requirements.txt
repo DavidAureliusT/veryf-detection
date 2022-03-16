@@ -1,22 +1,22 @@
 absl-py==1.0.0
-argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
-argon2-cffi-bindings @ file:///C:/ci/argon2-cffi-bindings_1644551690056/work
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
 astunparse==1.6.3
-attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
+attrs==21.4.0
+backcall==0.2.0
+bleach==4.1.0
 cachetools==5.0.0
 certifi==2021.10.8
-cffi @ file:///C:/ci_310/cffi_1642682485096/work
+cffi==1.15.0
 charset-normalizer==2.0.12
 click==8.0.4
-colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+colorama==0.4.4
 contextlib2==21.6.0
 cycler==0.11.0
 Cython==0.29.28
-debugpy @ file:///C:/ci/debugpy_1637091961445/work
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
-defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+debugpy==1.5.1
+decorator==5.1.1
+defusedxml==0.7.1
 docutils==0.18.1
 entrypoints==0.3
 Flask==2.0.3
@@ -30,19 +30,19 @@ grpcio==1.44.0
 h5py==3.6.0
 idna==3.3
 importlib-metadata==4.11.2
-ipykernel @ file:///C:/ci/ipykernel_1633545585502/work/dist/ipykernel-6.4.1-py3-none-any.whl
-ipython @ file:///C:/ci/ipython_1643818352265/work
-ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipykernel==6.4.1
+ipython==7.31.1
+ipython-genutils==0.2.0
 ipywidgets==7.6.5
 itsdangerous==2.1.1
-jedi @ file:///C:/ci/jedi_1644315428289/work
-Jinja2 @ file:///tmp/build/80754af9/jinja2_1635780242639/work
-jsonschema @ file:///Users/ktietz/demo/mc3/conda-bld/jsonschema_1630511932244/work
+jedi==0.18.1
+Jinja2==3.0.2
+jsonschema==3.2.0
 jupyter==1.0.0
-jupyter-client @ file:///opt/conda/conda-bld/jupyter_client_1643638337975/work
+jupyter-client==7.1.2
 jupyter-console==6.4.0
-jupyter-core @ file:///C:/ci/jupyter_core_1636537172022/work
-jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+jupyter-core==4.9.1
+jupyterlab-pygments==0.1.2
 jupyterlab-widgets==1.0.2
 keras==2.8.0
 Keras-Preprocessing==1.1.2
@@ -51,42 +51,43 @@ kiwisolver==1.3.2
 libclang==13.0.0
 lxml==4.8.0
 Markdown==3.3.6
-MarkupSafe @ file:///C:/ci/markupsafe_1621528502553/work
+MarkupSafe==2.0.1
 matplotlib==3.5.1
-matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
-mistune @ file:///C:/ci/mistune_1607359457024/work
-nbclient @ file:///tmp/build/80754af9/nbclient_1645431659072/work
-nbconvert @ file:///C:/ci/nbconvert_1624479160025/work
-nbformat @ file:///tmp/build/80754af9/nbformat_1617383369282/work
-nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
-notebook @ file:///C:/ci/notebook_1645002729033/work
+matplotlib-inline==0.1.2
+mistune==0.8.4
+nbclient==0.5.11
+nbconvert==6.1.0
+nbformat==5.1.3
+nest-asyncio==1.5.1
+notebook==6.4.8
 numpy==1.22.2
 oauthlib==3.2.0
 opencv-contrib-python==4.5.5.62
 opencv-python==4.5.5.62
 opt-einsum==3.3.0
-packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
-pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
-parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+packaging==21.3
+pandocfilters==1.5.0
+parso==0.8.3
+pickleshare==0.7.5
 Pillow==9.0.1
+pip==22.0.3
 pkginfo==1.8.2
-prometheus-client @ file:///opt/conda/conda-bld/prometheus_client_1643788673601/work
-prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+prometheus-client==0.13.1
+prompt-toolkit==3.0.20
 protobuf==3.19.4
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
-pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
-pyrsistent @ file:///C:/ci/pyrsistent_1636093225342/work
+pycparser==2.21
+Pygments==2.11.2
+pyparsing==3.0.4
+pyrsistent==0.18.0
 pytesseract==0.3.9
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-dateutil==2.8.2
 python-dotenv==0.19.2
 pywin32==302
 pywin32-ctypes==0.2.0
-pywinpty @ file:///C:/ci_310/pywinpty_1644230983541/work/target/wheels/pywinpty-2.0.2-cp39-none-win_amd64.whl
-pyzmq @ file:///C:/ci/pyzmq_1638435148211/work
+pywinpty==2.0.2
+pyzmq==22.3.0
 qtconsole==5.2.2
 QtPy==2.0.1
 readme-renderer==32.0
@@ -95,27 +96,29 @@ requests-oauthlib==1.3.1
 requests-toolbelt==0.9.1
 rfc3986==2.0.0
 rsa==4.8
-Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
-six @ file:///tmp/build/80754af9/six_1644875935023/work
+Send2Trash==1.8.0
+setuptools==58.0.4
+six==1.16.0
 tensorboard==2.8.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
 tensorflow==2.8.0
 tensorflow-io-gcs-filesystem==0.24.0
 termcolor==1.1.0
-terminado @ file:///C:/ci/terminado_1644322780199/work
-testpath @ file:///tmp/build/80754af9/testpath_1624638946665/work
+terminado==0.13.1
+testpath==0.5.0
 tf-estimator-nightly==2.8.0.dev2021122109
-tornado @ file:///C:/ci/tornado_1606924294691/work
+tornado==6.1
 tqdm==4.63.0
-traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
+traitlets==5.1.1
 twine==3.8.0
 typing_extensions==4.1.1
 urllib3==1.26.8
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==2.0.3
+wheel==0.37.1
 widgetsnbextension==3.5.2
 wincertstore==0.2
 wrapt==1.13.3
-zipp @ file:///opt/conda/conda-bld/zipp_1641824620731/work
+zipp==3.7.0
