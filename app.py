@@ -1,16 +1,17 @@
 from flask import Flask
 import time
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'    # Suppress TensorFlow logging (1)
 import tensorflow as tf
-import cv2
 from object_detection.utils import label_map_util
+import cv2
 import numpy as np
 from PIL import Image, ImageDraw
 import pytesseract
 # pytesseract.pytesseract.tesseract_cmd = '.\\Tesseract-OCR\\tesseract.exe'
 pytesseract.pytesseract.tesseract_cmd = "/app/.apt/usr/bin/tesseract"
 import json
+
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'    # Suppress TensorFlow logging (1)
 import warnings
 warnings.filterwarnings('ignore') 
 tf.get_logger().setLevel('ERROR')           # Suppress TensorFlow logging (2)
